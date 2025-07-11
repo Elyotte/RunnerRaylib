@@ -4,9 +4,6 @@
 
 class Paralax : public GraphicObject
 {
-private:
-	Texture duplicatedTexture;
-
 public:
 	float paralaxSpeed = 0.2f;
 	int paralaxDirection = -1;
