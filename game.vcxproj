@@ -12,6 +12,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="files\src\main.cpp" />
+    <ClCompile Include="files\src\Paralax.cpp" />
+    <ClCompile Include="files\src\GraphicObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="files\headers\Paralax.h" />
+    <ClInclude Include="files\headers\GraphicObject.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -59,7 +65,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>externals/include;files/headers</AdditionalIncludeDirectories>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard>stdcpp20</LanguageStandard>
       <Optimization>Disabled</Optimization>
     </ClCompile>
     <Link>

@@ -181,7 +181,20 @@
 typedef struct Vector2 {
     float x;
     float y;
+
+    // Surcharge de l'opérateur +=
+    Vector2& operator+=(const Vector2& other) {
+        this->x += other.x;
+        this->y += other.y;
+        return *this; // pour permettre le chaînage (ex : a += b += c)
+    }
+    // Surcharge de l'opérateur + (ne modifie rien)
+    Vector2 operator+(const Vector2& other) const {
+        return Vector2{ x + other.x, y + other.y };
+    }
+
 } Vector2;
+
 
 // Vector3 type
 typedef struct Vector3 {

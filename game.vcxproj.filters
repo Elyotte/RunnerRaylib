@@ -2,5 +2,11 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="files\src\main.cpp" />
+    <ClCompile Include="files\src\Paralax.cpp" />
+    <ClCompile Include="files\src\GraphicObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="files\headers\Paralax.h" />
+    <ClInclude Include="files\headers\GraphicObject.h" />
   </ItemGroup>
 </Project>
