@@ -1,4 +1,4 @@
-
+#include <iostream>
 #include <string>
 #include <raylib.h>
 
@@ -7,6 +7,7 @@
 
 int main(void)
 {
+    std::cout << "feur" << std::endl;
     // Initialization
     //--------------------------------------------------------------------------------------
     const int screenWidth = 800;
